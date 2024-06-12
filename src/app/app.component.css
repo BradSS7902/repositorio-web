@@ -1,0 +1,43 @@
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+.dropdown-menu a:hover {
+    background-color: #ddd;
+}
+body{
+background-color: #808080;
+}
+section{
+display: flex;
+width: 600px;
+height: 460px;
+margin: auto;
+margin-top: 40px;
+
+}
+section img{
+width: 0px;
+flex-grow: 1;
+object-fit: cover;
+opacity: .8;
+transition: .3s ease;
+border-radius: 5px;
+}
+section img:hover{
+cursor: pointer;
+width: 300px;
+opacity: 1;
+filter: contrast(120%);
+}
+.card-img-top{
+height: 250px;
+width: 180px;
+object-fit: cover;
+padding: 5px;
+margin: auto;
+
+}
+.card{
+background-color: #cccccc;
+}

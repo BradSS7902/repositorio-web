@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cineluxe</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">C I N E L U X E</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://m.imdb.com/chart/top/">Populares</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Géneros
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#accion">Acción</a>
+                            <a class="dropdown-item" href="#thriller">Thriller</a>
+                            <a class="dropdown-item" href="#drama">Drama</a>
+                            <a class="dropdown-item" href="#terror">Terror</a>
+                            <a class="dropdown-item" href="#cienciaficcion">Ciencia Ficción</a>
+                            <a class="dropdown-item" href="#animacion">Animación</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="slider" id="inicio">
+        <section>
+            <img src="https://image.tmdb.org/t/p/original/qJ2tW6WMUDux911r6m7haRef0WH.jpg">
+            <img src="https://image.tmdb.org/t/p/original/gajva2L0rPYkEWjzgFlBXCAVBE5.jpg">
+            <img src="https://image.tmdb.org/t/p/original/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg">
+            <img src="https://image.tmdb.org/t/p/original/4GDy0PHYX3VRXUtwK5ysFbg3kEx.jpg">
+            <img src="https://image.tmdb.org/t/p/original/6yoghtyTpznpBik8EngEmJskVUO.jpg">
+        </section>
+    </div>
+    <br>
+    <br>
+    <div class="container mt-5" id="accion">
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="https://image.tmdb.org/t/p/original/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg" class="card-img-top" alt="Película 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Fight Club</h5>
+                        <p class="card-text">Un empleado de oficina insomne en busca de una manera de cambiar su vida se cruza con un vendedor y crean un club de lucha clandestino como forma de terapia.</p>
+                        <a href="https://m.imdb.com/title/tt0137523/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_figh" class="btn btn-dark">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="https://image.tmdb.org/t/p/original/qJ2tW6WMUDux911r6m7haRef0WH.jpg" class="card-img-top" alt="Película 2">
+                    <div class="card-body">
+                        <h5 class="card-title">The Dark Knight</h5>
+                        <p class="card-text">Con la ayuda del teniente Jim Gordon y del Fiscal del Distrito Harvey Dent, Batman mantiene a raya el crimen organizado en Gotham. Todo cambia cuando aparece el Joker, un nuevo criminal que desencadena el caos y tiene aterrados a los ciudadanos.</p>
+                        <a href="https://m.imdb.com/title/tt0468569/?ref_=chttp_t_3" class="btn btn-dark">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="https://image.tmdb.org/t/p/original/6yoghtyTpznpBik8EngEmJskVUO.jpg" class="card-img-top" alt="Película 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Se7en</h5>
+                        <p class="card-text">El veterano teniente Somerset está a punto de jubilarse y ser reemplazado por el impulsivo detective David Mills. Ambos tendrán que colaborar en la resolución de unos asesinatos cometidos por un psicópata que se basa en los siete pecados capitales.</p>
+                        <a href="https://m.imdb.com/title/tt0114369/?ref_=fn_al_tt_1" class="btn btn-dark">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="https://image.tmdb.org/t/p/original/99X2SgyFunJFXGAYnDv3sb9pnUD.jpg" class="card-img-top" alt="Película 4">
+                    <div class="card-body">
+                        <h5 class="card-title">The Usual Suspects</h5>
+                        <p class="card-text">Dave Kujan, un agente especial del servicio de aduanas de EE.UU, investiga las causas del incendio de un barco, en el puerto de San Pedro de Los Ángeles, que provocó 27 víctimas mortales. Su única fuente de información es Roger Kint, un estafador lisiado que sobrevivió al incendio.</p>
+                        <a href="https://m.imdb.com/title/tt0114814/?ref_=nv_sr_srsg_0_tt_6_nm_2_q_usua" class="btn btn-dark">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5" id="cienciaficcion">
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="https://image.tmdb.org/t/p/original/gajva2L0rPYkEWjzgFlBXCAVBE5.jpg" class="card-img-top" alt="Película 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Blade Runner 2049</h5>
+                        <p class="card-text">Tras la rebelión de los replicantes creados por bioingeniería para ser utilizados como mano de obra esclava y la prohibición a Tyrell Corporation de seguir con su fabricación, el empresario Niander Wallace adquirió lo que quedaba de Tyrell Corp. y creó una nueva línea de replicantes mucho más obedientes. Ahora, en el año 2049, los viejos modelos Nexus 8 que continúan con vida están siendo retirados. Los que les persiguen aún reciben el nombre de Blade Runner.</p>
+                        <a href="https://m.imdb.com/title/tt1856101/?ref_=nv_sr_srsg_3_tt_8_nm_0_q_blade" class="btn btn-dark">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="https://image.tmdb.org/t/p/original/oYuLEt3zVCKq57qu2F8dT7NIa6f.jpg" class="card-img-top" alt="Película 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Inception</h5>
+                        <p class="card-text">Dom Cobb es un ladrón capaz de adentrarse en los sueños de la gente y hacerse con sus secretos. Sin embargo, ahora tiene que llevar a cabo una misión diferente a lo que ha hecho siempre: realizar una incepción para implantar una idea en el subconsciente de una persona. El plan se complica debido a la intervención de alguien que parece predecir cada uno de los movimientos de Cobb, alguien a quien solo él puede enfrentarse.</p>
+                        <a href="https://m.imdb.com/title/tt1375666/?ref_=nv_sr_srsg_0_tt_3_nm_5_q_ince" class="btn btn-dark">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="https://image.tmdb.org/t/p/original/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg" class="card-img-top" alt="Película 7">
+                    <div class="card-body">
+                        <h5 class="card-title">Interstellar</h5>
+                        <p class="card-text">Un grupo de científicos y exploradores, encabezados por Cooper, se embarcan en un viaje espacial para encontrar un lugar con las condiciones necesarias para reemplazar a la Tierra y comenzar una nueva vida allí. La Tierra está llegando a su fin y este grupo necesita encontrar un planeta más allá de nuestra galaxia que garantice el futuro de la raza humana.</p>
+                        <a href="https://m.imdb.com/title/tt0816692/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_interste" class="btn btn-dark">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="https://image.tmdb.org/t/p/original/poHwCZeWzJCShH7tOjg8RIoyjcw.jpg" class="card-img-top" alt="Película 8">
+                    <div class="card-body">
+                        <h5 class="card-title">Pirates of the Caribbean</h5>
+                        <p class="card-text">El capitán Barbossa le roba el barco al pirata Jack Sparrow y secuestra a Elizabeth, amiga de Will Turner. Barbossa y su tripulación son víctimas de un conjuro que los condena a vivir eternamente y a transformarse cada noche en esqueletos vivientes.</p>
+                        <a href="https://m.imdb.com/title/tt0325980/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_pira" class="btn btn-dark">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5" id="drama">
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="https://image.tmdb.org/t/p/original/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg" class="card-img-top" alt="Película 9">
+                    <div class="card-body">
+                        <h5 class="card-title">The Shawshank Redemption</h5>
+                        <p class="card-text">Andrew Dufresne es un hombre inocente que es acusado del asesinato de su mujer. Tras ser condenado a cadena perpetua, es enviado a la cárcel de Shawshank, en Maine. Con el paso de los años, Andrew conseguirá ganarse la confianza del director del centro y el respeto de los otros convictos, especialmente de Red, el jefe de la mafia.</p>
+                        <a href="https://m.imdb.com/title/tt0111161/?ref_=chttp_t_1" class="btn btn-dark">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="https://image.tmdb.org/t/p/original/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg" class="card-img-top" alt="Película 10">
+                    <div class="card-body">
+                        <h5 class="card-title">Forrest Gump</h5>
+                        <p class="card-text">Sentado en un banco en Savannah, Georgia, Forrest Gump espera al autobús. Mientras éste tarda en llegar, el joven cuenta su vida a las personas que se sientan a esperar con él. Aunque sufre un pequeño retraso mental, esto no le impide hacer cosas maravillosas. Sin entender del todo lo que sucede a su alrededor, Forrest toma partido en los eventos más importantes de la historia de los Estados Unidos.</p>
+                        <a href="https://m.imdb.com/title/tt0109830/?ref_=chttp_t_11" class="btn btn-dark">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="https://image.tmdb.org/t/p/original/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg" class="card-img-top" alt="Película 11">
+                    <div class="card-body">
+                        <h5 class="card-title">La La Land</h5>
+                        <p class="card-text">Mia y Sebastian son dos jóvenes que quieren abrirse camino en el mundo de Hollywood. Mia es una joven aspirante a actriz que trabaja como camarera mientras acude a castings y Sebastian toca el piano en bares. Un día sus caminos se cruzan e inmediatamente se enamoran. Los dos trabajan juntos para hacer realidad sus sueños, pero pronto se dan cuenta de que el mundo del arte pide sacrificios que ponen en peligro su relación.</p>
+                        <a href="https://m.imdb.com/title/tt3783958/?ref_=nv_sr_srsg_4_tt_4_nm_2_q_la%2520l" class="btn btn-dark">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="https://image.tmdb.org/t/p/original/5MwkWH9tYHv3mV9OdYTMR5qreIz.jpg" class="card-img-top" alt="Película 12">
+                    <div class="card-body">
+                        <h5 class="card-title">Eternal Sunshine of the Spotless Mind</h5>
+                        <p class="card-text">Joel recibe un terrible golpe cuando descubre que su novia, Clementine, ha hecho que borren de su memoria todos los recuerdos de su tormentosa relación. Desesperado, quiere que hagan lo mismo con él.</p>
+                        <a href="https://m.imdb.com/title/tt0338013/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_eter" class="btn btn-dark">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5" id="terror">
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="https://image.tmdb.org/t/p/original/8vnsB3Rg9Gb91UOaecXRb7dYB37.jpg" class="card-img-top" alt="Película 13">
+                    <div class="card-body">
+                        <h5 class="card-title">Grave Encounters</h5>
+                        <p class="card-text">Un equipo de televisión se encierra durante una noche en el Hospital de Collingwood para comprobar su largo historial de actividades paranormales.</p>
+                        <a href="https://m.imdb.com/title/tt1703199/?ref_=nv_sr_srsg_0_tt_5_nm_3_q_grave%2520enco" class="btn btn-dark">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="https://image.tmdb.org/t/p/original/nzx10sca3arCeYBAomHan4Q6wa1.jpg" class="card-img-top" alt="Película 14">
+                    <div class="card-body">
+                        <h5 class="card-title">Sinister</h5>
+                        <p class="card-text">Ellison Oswald, escritor de historias criminales está en una mala racha, no ha tenido un éxito en más de 10 años y está desesperado. Cuando descubre una película que muestra las muertes de una familia, él promete resolver el misterio. Él mueve a su propia familia a la casa de las víctimas y se pone a trabajar. Sin embargo, cuando unas imágenes antiguas y otras pistas apuntan a una presencia sobrenatural, Ellison descubre que vivir en esa casa podría poner a su propia familia en peligro.</p>
+                        <a href="https://m.imdb.com/title/tt1922777/?ref_=fn_al_tt_5" class="btn btn-dark">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="https://image.tmdb.org/t/p/original/rLNSOudrayDBo1uqXjrhxcjODIC.jpg" class="card-img-top" alt="Película 15">
+                    <div class="card-body">
+                        <h5 class="card-title">Saw</h5>
+                        <p class="card-text">Adam y Lawrence se despiertan encadenados en un sucio baño con un cadáver entre ellos. Su secuestrador es un loco conocido como Jigsaw cuyo juego consiste en forzar a sus cautivos a herirse a si mismos o a otros con tal de permanecer vivos.</p>
+                        <a href="https://m.imdb.com/title/tt0387564/?ref_=fn_al_tt_1" class="btn btn-dark">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="https://image.tmdb.org/t/p/original/tmlDFIUpGRKiuWm9Ixc6CYDk4y0.jpg" class="card-img-top" alt="Película 16">
+                    <div class="card-body">
+                        <h5 class="card-title">Película 12</h5>
+                        <p class="card-text">Josh (Patrick Wilson), su esposa Renai (Rose Byrne) y sus tres hijos acaban de mudarse a una vieja casa. Pero, tras un desgraciado accidente, uno de los niños entra en coma y, al mismo tiempo, empiezan a producirse en la casa extraños fenómenos que aterrorizan a la familia.</p>
+                        <a href="https://m.imdb.com/title/tt1591095/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_insidi" class="btn btn-dark">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5" id="thriller">
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="https://image.tmdb.org/t/p/original/nWtySDlffTfwAa0rSfq61o33ZXV.jpg" class="card-img-top" alt="Película 17">
+                    <div class="card-body">
+                        <h5 class="card-title">Memento</h5>
+                        <p class="card-text">Leonard es un investigador de una agencia de seguros cuya memoria está irreversiblemente dañada por culpa de un golpe en la cabeza, al intentar evitar el asesinato de su mujer: éste es el último hecho que recuerda del pasado. A causa del golpe, ha perdido la memoria reciente, los hechos cotidianos desaparecen de su mente en unos minutos. Así pues, para investigar y vengar el asesinato de su esposa tiene que recurrir a la ayuda de una cámara instantánea y a las notas tatuadas en su cuerpo.</p>
+                        <a href="https://m.imdb.com/title/tt0209144/?ref_=nv_sr_srsg_0_tt_6_nm_2_q_mem" class="btn btn-dark">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="https://image.tmdb.org/t/p/original/4GDy0PHYX3VRXUtwK5ysFbg3kEx.jpg" class="card-img-top" alt="Película 18">
+                    <div class="card-body">
+                        <h5 class="card-title">Shutter Island</h5>
+                        <p class="card-text">Verano de 1954. Los agentes judiciales Teddy Daniels y Chuck Aule son enviados a una remota isla del puerto de Boston para investigar la desaparición de una peligrosa asesina recluida en el hospital psiquiátrico Ashecliffe, un centro penitenciario para criminales perturbados dirigido por el siniestro doctor John Cawley. Pronto descubrirán que el centro guarda muchos secretos y que la isla esconde algo más peligroso que los pacientes.</p>
+                        <a href="https://m.imdb.com/title/tt1130884/?ref_=nv_sr_srsg_0_tt_4_nm_4_q_shutt" class="btn btn-dark">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="https://image.tmdb.org/t/p/original/rH19vkjAzCZ0HIUvrgB3rowm68h.jpg" class="card-img-top" alt="Película 19">
+                    <div class="card-body">
+                        <h5 class="card-title">Black Swan</h5>
+                        <p class="card-text">Una brillante bailarina que forma parte de una compañía de ballet de Nueva York, vive completamente absorbida por la danza. La presión de sus controladora madre y la rivalidad con su compañera Lily afectarán terriblemente a la niña.</p>
+                        <a href="https://m.imdb.com/title/tt0947798/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_black%2520swa" class="btn btn-dark">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="https://image.tmdb.org/t/p/original/tJ9fRkb3Erxkwdext2A8Qx71m87.jpg" class="card-img-top" alt="Película 20">
+                    <div class="card-body">
+                        <h5 class="card-title">Stay</h5>
+                        <p class="card-text">Henry confiesa a su psiquiatra, Sam Foster, que se suicidará dentro de unos días. Sam trata de evitarlo a toda costa, pero queda atrapado en la maraña de la turbulenta vida de Henry y en el laberinto de su subconsciente. Esto provoca que el psiquiatra no distinga lo que realmente está sucediendo en su cabeza.</p>
+                        <a href="https://m.imdb.com/title/tt0371257/?ref_=fn_al_tt_1" class="btn btn-dark">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5" id="animacion">
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="https://image.tmdb.org/t/p/original/t3vaWRPSf6WjDSamIkKDs1iQWna.jpg" class="card-img-top" alt="Película 21">
+                    <div class="card-body">
+                        <h5 class="card-title">Ratatouille</h5>
+                        <p class="card-text">Remy es una rata que aprecia la buena comida y tiene un paladar bastante sofisticado. Su sueño es convertirse algún día en un gran chef francés a pesar de la oposición de su familia. El destino lleva a Remy a las alcantarillas de París, donde su situación no puede ser mejor, ya que se encuentra justo debajo de uno de los restaurantes más finos de París. El roedor se sentirá en el lugar perfecto para convertir su sueño en una realidad.</p>
+                        <a href="https://m.imdb.com/title/tt0382932/?ref_=chttp_t_207" class="btn btn-dark">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="https://image.tmdb.org/t/p/original/mtqqD00vB4PGRt20gWtGqFhrkd0.jpg" class="card-img-top" alt="Película 22">
+                    <div class="card-body">
+                        <h5 class="card-title">Kung Fu Panda 2</h5>
+                        <p class="card-text">Po, que ahora vive su sueño como guerrero dragón protegiendo el valle de la paz junto a sus amigos los cinco furiosos, será amenazado por un nuevo villano, que planea usar una imparable arma secreta para conquistar china y destruir el kung fu.</p>
+                        <a href="https://m.imdb.com/title/tt1302011/?ref_=nv_sr_srsg_7_tt_8_nm_0_q_kung%2520fu%2520p" class="btn btn-dark">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="https://image.tmdb.org/t/p/original/k9tv1rXZbOhH7eiCk378x61kNQ1.jpg" class="card-img-top" alt="Película 23">
+                    <div class="card-body">
+                        <h5 class="card-title">The Grave of the Fireflies</h5>
+                        <p class="card-text">En Japón, en 1945, durante un ataque aéreo americano en la ciudad de Kobe, el joven Seita y su pequeña hermana Setsuko, hijos de un oficial de la marina japonesa, no consiguen llegar a tiempo al refugio en el que su madre los espera. Después del bombardeo los dos hermanos buscan a su madre, y Seita la encuentra muy malherida en la escuela que ha sido convertida en un hospital. Poco después la madre muere y, tras una breve estancia en casa de su tía, ambos vagarán sin casa y sin rumbo.</p>
+                        <a href="https://m.imdb.com/title/tt0095327/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_grave" class="btn btn-dark">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="https://image.tmdb.org/t/p/original/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg" class="card-img-top" alt="Película 24">
+                    <div class="card-body">
+                        <h5 class="card-title">Spirited Away</h5>
+                        <p class="card-text">Chihiro es una niña de diez años caprichosa y testaruda que cree que el universo entero debe someterse a sus deseos. Camino de su nuevo hogar junto a sus padres, una idea que la enfurece, la familia se equivoca de camino y aparece al final de un misterioso callejón sin salida, donde topan con un extraño edificio con un largo pasaje que los conduce a un pueblo fantasmal donde los espera un magnífico banquete.</p>
+                        <a href="https://m.imdb.com/title/tt0245429/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_spirited" class="btn btn-dark">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="bg-dark text-white mt-5" id="contacto">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5 class="text-uppercase">Contacto:</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <p><i class="fas fa-map-marker-alt"></i> Dirección: Plaza Murillo , La Paz, Bolivia</p>
+                        </li>
+                        <li>
+                            <p><i class="fas fa-phone"></i> Teléfono: +591 77777777</p>
+                        </li>
+                        <li>
+                            <p><i class="fas fa-envelope"></i> Email: sandovalbrad10gmail.com</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5 class="text-uppercase">Redes Sociales</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#" class="text-white"><i class="fab fa-facebook-f"></i> Facebook</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-white"><i class="fab fa-twitter"></i> Twitter</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-white"><i class="fab fa-instagram"></i> Instagram</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bg-dark text-center p-3">
+            <p class="mb-0">&copy; 2024 CINELUXE. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
